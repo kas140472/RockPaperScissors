@@ -6,6 +6,7 @@
 
 section{
     height: 91vh;
+    
     background-color: lightgray;
     font-family: monospace, sans-serif;
 }
@@ -13,19 +14,20 @@ section{
 .score {
     color: black;
     height: 20vh;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .score h2 {
-    font-size: 30px;
+    font-size: 3vh;
 }
 
 .score p {
     text-align: center;
     padding: 10px;
-    font-size: 25px;
+    font-size: 3vh 3vw;
 }
 
 .intro {
@@ -39,41 +41,50 @@ section{
 }
 
 .currentLead button {
-    width: 150px;
+    width: 12vh;
     height: 50px;
     background: none;
     border: none;
-    font-size: 20px;
+    font-size: 2vh;
     background: grey;
     color: aliceblue;
     border-radius: 5px;
     cursor: pointer;
-    margin: 15px;
+    margin: 1vh;
     align-items: center;
 }
 
 .intro h1 {
-    font-size: 50px;
+    font-size: 7vw;
 }
 
-.intro button, 
 .match button, 
 .match2 button {
-    width: 150px;
+    width: 12vw;
     height: 50px;
     background: none;
     border: none;
-    font-size: 20px;
+    font-size: 2vw;
     background: grey;
     color: aliceblue;
     border-radius: 5px;
     cursor: pointer;
-    margin: 15px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 2vw;
 }
 
 .intro button {
     width: 300px;
     height: 50px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    background: grey;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
 }
 
 .match, .match2 {
@@ -87,14 +98,14 @@ section{
 .winner {
     color: black;
     text-align: center;
-    font-size: 50px;
+    font-size: 3vh 3vw;
     margin: 15px;
 }
 
 .bnhWinner {
     color: black;
     text-align: center;
-    font-size: 50px;
+    font-size: 3vh 3vw;
     margin: 15px;
 }
 
@@ -113,22 +124,34 @@ section{
 .player-hand {
     transform: rotateY(0deg);
     transform: rotateZ(90deg);
+    max-width: 25vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .player-tool {
     width: 200px;
     height: 200px;
+    max-width: 25vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .computer-hand {
     transform: rotateY(0deg);
     transform: rotateZ(270deg);
+    max-width: 25vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .computer-tool {
     width: 200px;
     height: 200px;
     transform: rotateY(180deg);
+    max-width: 25vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 div.fadeOut {
