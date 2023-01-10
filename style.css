@@ -6,7 +6,6 @@
 
 section{
     height: 91vh;
-    
     background-color: lightgray;
     font-family: monospace, sans-serif;
 }
@@ -41,11 +40,11 @@ section{
 }
 
 .currentLead button {
-    width: 12vh;
+    width: 20vw;
     height: 50px;
     background: none;
     border: none;
-    font-size: 2vh;
+    font-size: 2vw;
     background: grey;
     color: aliceblue;
     border-radius: 5px;
@@ -285,6 +284,7 @@ div.fadeIn {
 }
 
 .footer{
+    height: 9vh;
     text-align: center;
     background-color: gray;
     color: whitesmoke;
