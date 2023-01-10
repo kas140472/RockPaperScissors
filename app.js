@@ -71,11 +71,11 @@ const game = ()=> {
 
                 setTimeout(() => {
                     leadBtn.textContent = 'Who\'s leading?';
-                    compareHands(this.textContent, computerChoice);
-                    updateScore();
                     // update images
                     playerHand.src = `./images/${this.textContent}.png`;
                     computerHand.src = `./images/${computerChoice}.png`;
+                    compareHands(this.textContent, computerChoice);
+                    updateScore();
                 }, 2000);
 
                 playerHand.style.animation = "shakePlayer 2s ease";
@@ -195,11 +195,11 @@ const game = ()=> {
 
                 setTimeout(() => {
                     leadBtn.textContent = 'Who\'s leading?';
-                    compareTools(this.textContent, computerChoice);
-                    updateScoreBNH();
                     // update images
                     playerTool.src = `./images/${this.textContent}.png`;
                     computerTool.src = `./images/${computerChoice}.png`;
+                    compareTools(this.textContent, computerChoice);
+                    updateScoreBNH();
                 }, 2000);
 
                 playerTool.style.animation = "shakePlayerTool 2s ease";
