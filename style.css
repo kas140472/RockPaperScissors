@@ -59,11 +59,11 @@ section{
 
 .match button, 
 .match2 button {
-    width: 12vw;
+    width: 25vw;
     height: 50px;
     background: none;
     border: none;
-    font-size: 2vw;
+    font-size: 5vw;
     background: grey;
     color: aliceblue;
     border-radius: 5px;
